@@ -1,0 +1,12 @@
+@use 'colors';
+
+@mixin body-GeneralStyle{
+    font-family: "Open Sans", sans-serif;
+    font-family: 'Yekan', Arial, sans-serif;
+    color: colors.$body-GeneralStyleColor;
+}
+
+@mixin h1-h6GeneralStyle{
+    font-family: "Raleway", sans-serif;
+    font-family: 'Vazir', Arial, sans-serif;
+}
