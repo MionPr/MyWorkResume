@@ -265,11 +265,13 @@ window.addEventListener('load', () => {
   * Initiate Pure Counter 
   */
  //new PureCounter();
- let address = document.getElementById("checkLocation");
+
+ // Going to google maps for location
+//  let address = document.getElementById("checkLocation");
  
- address.addEventListener("click", () => {
-    window.open("https://www.google.com/maps/place/Shahr-e+Jadid-e+Parand,+Tehran+Province/@35.4853229,50.9415489,13z/data=!4m6!3m5!1s0x3f92750b1a9cd79d:0x123b58807bd23a56!8m2!3d35.4718034!4d50.9600387!16zL20vMDRfbjdi?entry=ttu", "_blank");
- });
+//  address.addEventListener("click", () => {
+//     window.open("https://www.google.com/maps/place/Shahr-e+Jadid-e+Parand,+Tehran+Province/@35.4853229,50.9415489,13z/data=!4m6!3m5!1s0x3f92750b1a9cd79d:0x123b58807bd23a56!8m2!3d35.4718034!4d50.9600387!16zL20vMDRfbjdi?entry=ttu", "_blank");
+//  });
 
  /*
  ** Tooltips Area
